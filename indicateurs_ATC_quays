@@ -1,0 +1,8 @@
+- Nbhab_300m : Nombre d’habitants situés dans un rayon de 300 m à vol d’oiseau du quay 
+- Min_time : Heure minimale du premier passage au quay 
+- Max_time : Heure maximale du dernier passage au quay
+- Amplitude : Amplitude maximale entre le premier passage et le dernier passage au quay sur une journée
+- Nbpas_intr : Nombre de passages maximum en moyenne journée ( 09h30 – 16h29 )
+- Nbpas_pnte : Nombre de passages maximum en heure de pointe ( 07h30 - 9h29 / 16h30 -19h59 )
+- Nbpas_crse : Nombre de passages maximum en heure creuse ( 00h00 - 7h29 / 20h00 - 23h59 )
+- Nbpas_tot : Nombre total de passages sur la journée
