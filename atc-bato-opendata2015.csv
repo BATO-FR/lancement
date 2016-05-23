@@ -1,0 +1,47 @@
+Donnée,"Nom 
+Fichier",ID status,Accès ? libre/restreint,Donnée valide ? o/n,Diffusable en 2015 ?,Import serveur 2016,scripts lancés,AOT / Ville,,Format,Date téléchargement,Lien d'accès aux données
+,,,,,,,,,,,,
+1_opendata – Données Horaires,,,,,,,,,,,,
+aixenbus,AIXENBUS,90,libre,o,o,o,o,'',Aix-en-provence,NEPTUNE,23/04/15,http://www.lepilote.com/presentation/?rub_code=92
+bus_agglo,AGGLOBUS,91,libre,o,o,o,o,'',aubagne,NEPTUNE,23/04/15,''
+bus_cigales,CIGALES,92,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+bus_collines,BUSDESCOLLINES,93,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+bus_cote_bleue,COTEBLEUE,94,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+bus_etang,ETANG,95,libre,o,o,o,o,'',smiiteb,NEPTUNE,23/04/15,''
+bus_marcouline,MARCOULINE,96,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+cartreize,CG13,97,libre,o,o,o,o,'',cd13,NEPTUNE,23/04/15,''
+ciotabus,CIOTABUS,98,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+cpa,CPA,99,libre,o,o,o,o,'',Aix-en-provence,NEPTUNE,23/04/15,''
+envia,ACCM,100,libre,o,o,o,o,LePilote,arles,NEPTUNE,23/04/15,''
+frioul_if_express,FRIOUL,101,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+libebus,LIBEBUS,102,libre,o,o,o,o,'',salon-de-provence,NEPTUNE,23/04/15,''
+milsab,milsab,108,libre,o,o,o,o,'',,NEPTUNE,23/04/15,''
+omnibus,OMNIBUS,103,libre,o,o,,,'',Aix-en-provence,NEPTUNE,23/04/15,''
+rtm,RTM,104,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+rtmnav,rtmnav,110,libre,o,o,o,o,'',marseille,NEPTUNE,23/04/15,''
+ulysse,SANPROVENCE,105,libre,o,o,o,o,'',fos_martigues,NEPTUNE,23/04/15,''
+tbc_bus,KEOLIS_BUS,113,libre,o,o,o,o,Bordeaux,,GTFS,24/06/15,http://data.lacub.fr/data.php?themes=10
+tbc_tram,KEOLIS_TRAM,114,libre,o,o,o,o,Bordeaux,,GTFS,24/06/15,''
+transgironde,TRANSGIRONDE,116,libre,o,o,o,o,cd33,,GTFS,23/04/15,http://www.datalocale.fr/drupal7/dataset/liste-lignereguliere-transgironde
+lila,LILA,107,libre,o,o,o,o,cd44,,GTFS,04/05/15,http://data.loire-atlantique.fr/donnees/?facet[files_types_id%3A13]=on&keywords=&sort_search=date
+tan,TAN,112,libre,o,o,o,o,nantes,,GTFS,29/04/15,''
+ratp,RATP,109,libre,o,o,,,STIF,,GTFS,23/04/15,http://data.ratp.fr/fr/les-donnees/fiche-de-jeu-de-donnees/dataset/offre-transport-de-la-ratp-format-gtfs.html?tx_icsoddatastore_pi1[returnID]=38
+transilien,TRANSILIEN,144,libre,o,o,o,o,STIF,,GTFS,13/01/15,http://opendata.transilien.com/
+star,STAR,111,libre,n,n,o,o,Rennes,,GTFS,10/12/14,http://www.data.rennes-metropole.fr/les-donnees/catalogue/
+cts,CTS,106,libre,o,o,o,o,Strasbourg,,GTFS,24/06/15,http://opendata.cts-strasbourg.fr/fichiers/gtfs/google_transit.zip
+tisseo,TISSEO_METRO_BUS_TRAM,115,libre,o,o,o,o,Toulouse,,GTFS,23/04/15,https://data.toulouse-metropole.fr/les-donnees/-/opendata/card/16271-reseau-tisseo-metro-bus-tram-gtfs
+stan,STAN,117,libre,n,n,n,,Nancy,,GTFS,24/06/15,http://opendata.grand-nancy.org/jeux-de-donnees/detail-dune-fiche-de-donnees/?tx_icsoddatastore_pi1[page]=3&tx_icsoddatastore_pi1[uid]=108&tx_icsoddatastore_pi1[returnID]=447
+angers,IRIGO,143,libre,n,n,o,o,Angers,,GTFS,24/06/15,http://data.angers.fr/donnees/mobilite-horaire-de-passage-theorique/
+TER,TER,137,libre,o,o,o,o,sncf,,GTFS,23/04/15,https://www.data.gouv.fr/fr/datasets/horaires-des-lignes-ter-sncf/
+INTERCITE,INTERCITE,136,libre,o,o,o,o,sncf,,GTFS,23/04/15,https://www.data.gouv.fr/fr/datasets/horaires-des-lignes-intercites-sncf/
+tcl,tcl,122,libre,o,o,o,o,grand lyon,,NEPTUNE,16/06/15,http://data.grandlyon.com/search/?Q=TCL&P=2#searchResult
+le_met,metz,139,libre,o,o,o,o,metz_metropole,,GTFS,19/06/15,https://www.data.gouv.fr/fr/datasets/transport-donnees-gtfs/
+nice_lignes_azur,lignes_azur,140,libre,o,o,o,o,Nice Métropole,,GTFS,19/06/15,http://opendata.nicecotedazur.org/data/dataset/export-au-format-gtfs-du-reseau-de-transport-lignes-d-azur
+capi,,167,libre,o,o,o,o,itin'isere,Bourgoin-Jallieu,NEPTUNE,01/10/15,http://www.itinisere.fr/fr/donnees-open-data/74
+dep38,,168,libre,o,o,o,o,'',cd38,NEPTUNE,01/10/15,''
+gresiv,,169,libre,o,o,o,o,'',Grésivaudan ,NEPTUNE,01/10/15,''
+vienne,,171,libre,o,o,o,o,'',Vienne,NEPTUNE,01/10/15,''
+voiron,,172,libre,o,o,o,o,'',Voiron,NEPTUNE,01/10/15,''
+tag,,170,libre,n,n,o,o,Metromobilité,Grenoble,GTFS,01/10/15,http://www.metromobilite.fr/data/Horaires/SEM-GTFS.zip
+bibus,,149,libre,o,o,o,o,Brest,,GTFS,,https://geo.pays-de-brest.fr/donnees/Documents/Public/BrestMetropole_Bibus.zip
+STIF,,195,libre,o,o,o,o,STIF,,GTFS,19/11/15,
