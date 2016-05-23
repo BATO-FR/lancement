@@ -1,0 +1,57 @@
+-- Table: bato.base_atc_bato
+
+-- DROP TABLE bato.base_atc_bato;
+
+CREATE TABLE bato.base_atc_bato
+(
+  ogc_fid integer NOT NULL DEFAULT nextval('bato.arrets_ogc_fid_seq'::regclass),
+  the_geom geometry(Point,2154),
+  id character(254),
+  name character(254),
+  latitude numeric(24,15),
+  longitude numeric(24,15),
+  srsname character(254),
+  postalreg_ character(254),
+  siteref character(254),
+  transpmod_ character(254),
+  gml_pos character(254),
+  street character(254),
+  wheelchac_ character(254),
+  privatcod_ character(254),
+  publiccode double precision,
+  descripti_ character(254),
+  tariffzon_ double precision,
+  url character(254),
+  fournisse_ character(254),
+  dern_maj character(80),
+  nbhab_300m double precision,
+  min_time character(80),
+  max_time character(80),
+  amplitude character(80),
+  nbpas_intr double precision,
+  nbpas_pnte double precision,
+  nbpas_crse double precision,
+  nbpas_tot double precision,
+  buffer_geom geometry(Polygon,2154),
+  nom_bato character varying(254),
+  id_bato character varying(254),
+  id_bato_ref character varying(254),
+  nom_abrege text,
+  nom_reseau character varying(254),
+  type_arret character varying(254),
+  CONSTRAINT arrets_pk PRIMARY KEY (ogc_fid)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE bato.base_atc_bato
+  OWNER TO chouette;
+
+-- Index: bato.arrets_geom_idx
+
+-- DROP INDEX bato.arrets_geom_idx;
+
+CREATE INDEX arrets_geom_idx
+  ON bato.base_atc_bato
+  USING gist
+  (the_geom);
